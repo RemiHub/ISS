@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(".vscode/ISS-unsplash.jpg");
+}
+
+
+
+#mapBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 500px; */
+    flex-direction: column;
+    /* border: 1px solid rgb(30, 30, 71); */
+    border-radius: 10px;
+}
+
+#map {
+    margin-top: 70px;
+    width: 80%;
+    text-align: center;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px rgb(18, 47, 90);
+    opacity: 0.4;
+   }
+
+
+h1, h3 {
+       text-align: center;
+       color: #fff;
+   }
